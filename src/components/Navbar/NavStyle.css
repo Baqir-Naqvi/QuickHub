@@ -37,27 +37,17 @@
   font-size: 30px;
   font-weight: medium;
 }
-.NavbarButton {
-  background-color: #72b65a;
-  color: "black";
-  font-weight: 700;
-  border-radius: 0;
-  height: 45px;
-  width: 100px;
-}
+
 .NavbarButton:hover {
   background-color: #91f5ad;
   color: "black";
-  font-weight: 700;
-
+  font-weight: 500;
   height: 45px;
   width: 100px;
 }
 .NavbarButton {
   background-color: #72b65a;
-  color: "white";
-  font-weight: 700;
-
+  font-weight: 500;
   height: 45px;
   width: 100px;
   margin-left: 20px;
