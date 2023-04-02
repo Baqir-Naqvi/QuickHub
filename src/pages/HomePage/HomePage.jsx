@@ -9,6 +9,7 @@ import Footer from "../../components/Footer/Footer";
 import HeroSection from "../../components/HeroSection/HeroSection";
 import QuickSection from "../../components/QuickSection/QuickSection";
 import FAQs from "../../components/FAQs/FAQs";
+
 import img1 from "../../assets/img1.png";
 import img2 from "../../assets/img2.png";
 import img3 from "../../assets/img3.png";
@@ -24,6 +25,8 @@ import TabsSection from "../../components/TabsSection/TabsSection";
 import PersonalizeSection from "../../components/PersonalizeSection/PersonalizeSection";
 import TrustedSection from "../../components/TrustedSection/TrustedSection";
 import DigitalSection from "../../components/DigitalSection/DigitalSection";
+import FAQ from "../../components/FAQs/FAQ";
+
 
 export default function HomePage() {
   const { setState } = useGlobalContext();
@@ -57,6 +60,7 @@ export default function HomePage() {
           );
         })}
       </div> */}
+      <FAQ />
 
       <Container className="innercontainer">
         <Col className="trial">

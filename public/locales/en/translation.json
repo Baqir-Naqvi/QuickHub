@@ -1,0 +1,127 @@
+{
+    "slider": {
+        "1": {
+            "title": "Let's Start With Starty",
+            "desc": "Our design projects are fresh and simple and will benefit your business greatly. Learn more about our work!"
+        },
+        "2": {
+            "title": "Become Superhuman",
+            "desc": "Our design projects are fresh and simple and will benefit your business greatly. Learn more about our work!"
+        },
+        "3": { 
+            "title": "Take Care of Your Future",
+            "desc": "Our design projects are fresh and simple and will benefit your business greatly. Learn more about our work!"
+        }
+    },
+    "services": {
+        "1": {
+            "title": "Business Analysis",
+            "desc": "Due to its widespread use as filler text for layouts, non-readability is of great importance"
+        },
+        "2": {
+            "title": "Estate Planning",
+            "desc": "Due to its widespread use as filler text for layouts, non-readability is of great importance"
+        },
+        "3": {
+            "title": "Cryptocurrency",
+            "desc": "Due to its widespread use as filler text for layouts, non-readability is of great importance"
+        },
+        "4": {
+            "title": "Security Enhanced",
+            "desc": "Due to its widespread use as filler text for layouts, non-readability is of great importance"
+        }
+    },
+    "about": {
+        "title": "We are a creative company!",
+        "desc": "This prevents repetitive patterns from impairing the overall visual impression and facilitates the comparison of different typefaces. Furthermore, it is advantageous when the dummy text is relatively realistic so that the layout impression of the final publication is not compromised.",
+        "listItem": {
+            "1": "Beautiful and easy to understand animations",
+            "2": "Our Talented & Experienced Marketing Agency",
+            "3": "Theme advantages are pixel perfect design"
+        }
+    },
+    "howItWorks": {
+        "header": {
+            "title": "Our process is simple",
+            "desc": "Our design projects are fresh and simple and will benefit your business greatly. Learn more about our work!"
+        },
+        "1": {
+            "title": "Developing strategy",
+            "desc": "It is said that song composers of the past used dummy texts as lyrics when writing to sing with the melody."
+        },
+        "2": {
+            "title": "Blazing performance",
+            "desc": "It is said that song composers of the past used dummy texts as lyrics when writing to sing with the melody."
+        },
+        "3": {
+            "title": "Customer satisfaction",
+            "desc": "It is said that song composers of the past used dummy texts as lyrics when writing to sing with the melody."
+        }
+    },
+    "pricing": {
+        "header": {
+            "title1": "Select a Plan",
+            "title2": "Now To Get More Profit",
+            "desc": "Our design projects are fresh and simple and will benefit your business greatly. Learn more about our work!"
+        }
+    },
+    "testimonial": {
+        "header": {
+            "title": "What our customers say about us",
+            "desc": "Our design projects are fresh and simple and will benefit your business greatly. Learn more about our work!"
+        }
+    },
+  "faq": {
+    "header": {
+        "title": "Do you have a question?",
+        "desc": "Our design projects are fresh and simple and will benefit your business greatly. Learn more about our work!"
+    },
+    "category": {
+        "1": "Buying Questions",
+        "2": "General Questions",
+        "3": "Payments Questions",
+        "4": "Support Questions"
+    },
+    "buyingQuestions": {
+      "1": {
+        "Q": "How does it work ?",
+        "A": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form."
+      },
+      "2": {
+        "Q": "Do I need a designer to use Starty ?",
+        "A": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form."
+      },
+      "3": {
+        "Q": "What do I need to do to start selling ?",
+        "A": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form."
+      },
+      "4": {
+        "Q": "What happens when I receive an order ?",
+        "A": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form."
+      }
+    },
+    "generalQuestions": {
+      "1": {
+        "Q": "Lorem ipsum dolor sit amet consectetur adipisicing?",
+        "A": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form."
+      },
+      "2": {
+        "Q": "Do I need a designer to use Starty ?",
+        "A": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form."
+      },
+      "3": {
+        "Q": "What do I need to do to start selling ?",
+        "A": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form."
+      },
+      "4": {
+        "Q": "What happens when I receive an order ?",
+        "A": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form."
+      }
+    }
+  },
+  "ctaFooterDesc": "Make your website unforgettable Join the Starty community.",
+  "shortDescripton": "Our design projects are fresh and simple and will benefit your business greatly. Learn more about our work!",
+  "copyright": {
+    "1": "2023 © Neuraly. Design by Neuraly."
+  }
+}

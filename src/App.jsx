@@ -9,6 +9,8 @@ import "./App.css";
 import HomePage from "./pages/HomePage/HomePage";
 import CustomNavbar from "./components/Navbar/CustomNavbar";
 import {useGlobalContext } from "./utils/ContextProvider";
+import "./i18next";
+
 
 
 function App() {
