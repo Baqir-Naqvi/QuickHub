@@ -41,6 +41,8 @@ body {
   font-weight: 500;
   cursor: pointer;
   justify-content: space-evenly;
+  display: flex;
+  self-align: center;
 }
 .whoweare a {
   color: #fff;
@@ -60,6 +62,7 @@ body {
   cursor: pointer;
   justify-content: space-evenly;
   self-align: center;
+  border: 2px solid #72B65A;
 }
 
 .hero-img-section {

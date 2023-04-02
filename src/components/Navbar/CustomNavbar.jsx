@@ -16,7 +16,7 @@ export default function CustomNavbar() {
     navigation("/login/register");
   };
   return (
-    <Navbar collapseOnSelect expand="lg" className="NavBar" variant="dark">
+    <Navbar collapseOnSelect expand="lg" className="NavBar" variant="light">
       <Container>
         <Navbar.Brand href="/" className="logo">
           QuickHub{" "}

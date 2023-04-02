@@ -557,6 +557,10 @@ video {
   margin: auto;
 }
 
+.m-2 {
+  margin: 0.5rem;
+}
+
 .mx-2 {
   margin-left: 0.5rem;
   margin-right: 0.5rem;
@@ -578,6 +582,10 @@ video {
 
 .mb-7 {
   margin-bottom: 1.75rem;
+}
+
+.mr-0 {
+  margin-right: 0px;
 }
 
 .flex {
@@ -627,6 +635,10 @@ video {
 
 .items-center {
   align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
 }
 
 .justify-between {
@@ -704,6 +716,10 @@ video {
 
 .text-center {
   text-align: center;
+}
+
+.align-middle {
+  vertical-align: middle;
 }
 
 .text-3xl {

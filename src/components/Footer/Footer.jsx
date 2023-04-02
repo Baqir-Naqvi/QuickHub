@@ -14,14 +14,14 @@ import { Button, Form } from 'react-bootstrap';
 export default function Footer() {
   return (
     <Container fluid className='footercontainer'>
-        <Row className='footerContent'>
+        <Row className='footerContent m-auto'>
             <Col className='footer-col'
             lg={3} md={6} sm={12}>
                 <Row className='row'>
                     <Col lg={2}>
                     <AiOutlineMenu 
-                    size={50}
-                    color='white'
+                    size={30}
+                    color='black'
                     />
                     </Col>
                     <Col lg={10}>

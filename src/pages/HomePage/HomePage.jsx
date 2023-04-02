@@ -43,35 +43,17 @@ export default function HomePage() {
       <PersonalizeSection />
       <TrustedSection />
       <DigitalSection />
-      {/* <FAQs /> */}
-      {/* <h1 className="quicktitle">
-        Our <br />
-        <span style={{ color: "#fff" }}>Partners</span>
-      </h1>
-      <div className="partners">
-        {images.map((image, index) => {
-          return (
-            <img
-              src={image}
-              alt="partner"
-              key={index}
-              className="partner-img"
-            />
-          );
-        })}
-      </div> */}
       <FAQ />
 
-      <Container className="innercontainer">
-        <Col className="trial">
-          <Row>
+      <Container fluid className="innercontainer justify-center">
+       
+          <div className="flex-column align-items-center">
             <p className="trialtitle">
               Try QuickHub free <br />
               for 30 days
             </p>
-          </Row>
           <Button className="trialbutton">Start free trial</Button>
-        </Col>
+          </div>
       </Container>
       <Footer />
     </Container>
