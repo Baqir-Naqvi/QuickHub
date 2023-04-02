@@ -3,7 +3,7 @@ import React,{useEffect} from 'react'
 import { Container } from 'react-bootstrap'
 import FeatureCard from '../FeatureCard/FeatureCard'
 import { Row } from 'react-bootstrap'
-import {featuresData} from '../../data/featuresData'
+import {featuresData} from '../../data/FeaturesData'
 import AOS from 'aos';
 
 export default function QuickSection() {
