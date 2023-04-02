@@ -1,6 +1,6 @@
 import React from "react";
 import Faq from "react-faq-component";
-import { FAQsData } from "../../data/featuresData";
+import { FAQsData } from "../../data/FeaturesData";
 import { Row } from "react-bootstrap";
 import { Col } from "react-bootstrap";
 import "./faqstyle.css";
