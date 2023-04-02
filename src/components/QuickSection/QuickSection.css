@@ -1,0 +1,14 @@
+.quicksection {
+  padding-block: 120px;
+}
+
+.quicktitle {
+  font-size: 36px;
+  color: #72b65a;
+  text-align: center;
+  font-weight: 700;
+}
+.quickrow {
+  justify-content: space-evenly;
+  margin-top: 50px;
+}

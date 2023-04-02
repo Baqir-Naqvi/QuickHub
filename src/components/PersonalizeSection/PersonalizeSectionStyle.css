@@ -1,0 +1,26 @@
+.personalized-container {
+  background-color: #ffffff !important;
+  padding-top: 75px;
+}
+
+.section-heading {
+  font-size: 36px;
+}
+
+.personalized-img-section {
+  padding-left: 71px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.personalized-img {
+  border-radius: 10px;
+  /* height: 400px;
+  width: 818px; */
+}
+
+.section-text {
+  font-size: 20px;
+  line-height: 1.7;
+  font-weight: 250;
+}

@@ -1,0 +1,76 @@
+body {
+  background-color: #111238;
+}
+
+.main-container {
+  background-color: #111238 !important;
+}
+
+.hero-container {
+  margin-top: 100px;
+  padding-left: 15%;
+}
+.hero-container h4 {
+  font-size: 36px;
+  color: #72b65a;
+
+  font-weight: 700;
+}
+.hero-container .title {
+  font-size: 62px;
+  color: #fff;
+
+  font-weight: 700;
+}
+.hero-container .whoweare {
+  font-size: 20px;
+  color: #fff;
+
+  font-weight: 400;
+  margin-top: 20px;
+}
+.hero-container .Herobutton {
+  background-color: #72b65a;
+  color: #000;
+  border: none;
+  padding: 10px 20px;
+  width: 200px;
+  border-radius: 5px;
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+  justify-content: space-evenly;
+}
+.whoweare a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+}
+.trialbutton {
+  background-color: #111238;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  width: 200px;
+  border-radius: 5px;
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+  justify-content: space-evenly;
+  self-align: center;
+}
+
+.hero-img-section {
+  width: 100%;
+  justify-content: space-evenly;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.p-x-0 {
+  padding-left: 0px;
+  padding-right: 0px;
+}

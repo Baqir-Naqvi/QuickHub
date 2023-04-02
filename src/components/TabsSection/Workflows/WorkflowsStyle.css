@@ -1,0 +1,25 @@
+.itworkflow-container {
+  background-color: #ffffff !important;
+}
+
+.section-heading {
+  font-size: 36px;
+}
+
+.itworkflow-img-section {
+  padding-left: 71px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.itworkflow-img {
+  border-radius: 10px;
+  /* height: 400px;
+  width: 818px; */
+}
+
+.section-text {
+  font-size: 20px;
+  line-height: 1.7;
+  font-weight: 250;
+}

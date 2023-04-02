@@ -1,0 +1,33 @@
+.faqrow{
+    justify-content: space-evenly;
+    padding: 0 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.faqrow .card{
+    width: 95%;
+    background-color: #fff;
+    color: #000;
+    height: 23rem;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+.Herobutton{
+ background-color: #72B65A;
+    color: #000;
+    border: none;
+    width: 70%;
+    height: 50px;
+    border-radius: 5px;
+    cursor: pointer;
+    justify-content: space-evenly;
+    font-size: 16px;
+    font-weight: 600;
+}
+.faq-style-wrapper{
+    background-color: #fff;
+    border-radius: 10px;
+    font-weight: 600;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}

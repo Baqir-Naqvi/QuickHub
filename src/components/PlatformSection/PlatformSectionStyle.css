@@ -1,0 +1,43 @@
+
+
+.platform-container{
+    background-color: #FFFFFF !important; 
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+
+
+.platform-img-section{
+    padding-left: 71px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.platform-img{
+    border-radius: 10px;
+    /* height: 400px;
+    width: 818px; */
+}
+
+.platform-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+.platform-container h2{
+    font-size: 2.2rem;
+    font-weight: 600;
+   
+}
+
+.p-x-0{
+    padding-left:0px;
+    padding-right: 0px;
+}

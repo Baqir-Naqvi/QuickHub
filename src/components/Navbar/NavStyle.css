@@ -1,0 +1,76 @@
+.NavBar {
+  background-color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  /* text-align: center; */
+}
+.NavItems {
+  color: black;
+  margin-left: 40px;
+  text-decoration: none;
+  list-style-type: none;
+  font-weight: 500;
+  font-size: 16px;
+}
+.NavItems:hover {
+  color: #91f5ad;
+}
+.NavItems:after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background-color: #91f5ad;
+  transition: width 0.3s;
+  color: #91f5ad;
+}
+.NavItems:hover:after {
+  width: 100%;
+  transition: width 0.3s;
+}
+.NavItems:active {
+  color: #91f5ad;
+}
+
+.NavBar .logo {
+  color: black;
+  font-size: 30px;
+  font-weight: medium;
+}
+.NavbarButton {
+  background-color: #72b65a;
+  color: "black";
+  font-weight: 700;
+  border-radius: 0;
+  height: 45px;
+  width: 100px;
+}
+.NavbarButton:hover {
+  background-color: #91f5ad;
+  color: "black";
+  font-weight: 700;
+
+  height: 45px;
+  width: 100px;
+}
+.NavbarButton {
+  background-color: #72b65a;
+  color: "white";
+  font-weight: 700;
+
+  height: 45px;
+  width: 100px;
+  margin-left: 20px;
+}
+@media screen and (max-width: 600px) {
+  .NavBar {
+    flex-direction: column;
+    padding: 20px;
+  }
+  .NavItems {
+    margin: 10px;
+  }
+  .NavbarButton {
+    margin: 10px;
+  }
+}
