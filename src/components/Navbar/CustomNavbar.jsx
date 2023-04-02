@@ -27,8 +27,8 @@ export default function CustomNavbar() {
             <Link className="NavItems" to="/">
               Home
             </Link>
-            <Link className="NavItems" to="#pricing">
-              How it Works
+            <Link className="NavItems" to="/guides">
+              Guides
             </Link>
             <Link className="NavItems" to="#pricing">
               Pricing

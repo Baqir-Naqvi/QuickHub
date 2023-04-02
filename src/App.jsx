@@ -10,6 +10,7 @@ import HomePage from "./pages/HomePage/HomePage";
 import CustomNavbar from "./components/Navbar/CustomNavbar";
 import {useGlobalContext } from "./utils/ContextProvider";
 import "./i18next";
+import Guides from "./pages/Guides/Guides";
 
 
 
@@ -21,6 +22,8 @@ function App() {
         {state && <CustomNavbar />}
         <Routes>
           <Route path="/" element={<HomePage />} />
+          <Route path="/guides" element={<Guides />} />
+
           
         </Routes>
       </BrowserRouter>
