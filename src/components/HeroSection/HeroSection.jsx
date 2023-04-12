@@ -4,7 +4,9 @@ import { AiOutlineArrowRight } from "react-icons/ai";
 import { Typewriter } from "react-simple-typewriter";
 import Button from "react-bootstrap/Button";
 import { Col, Container, Row } from "react-bootstrap";
-import heroImg from "../../assets/hero-img.png";
+// import heroImg from "../../assets/quickHub1.png"
+import heroImg from "../../assets/hero-img.png"
+
 function HeroSection() {
   return (
     <>
@@ -22,7 +24,7 @@ function HeroSection() {
                   words={["Who are we?"]}
                 />
               </h4>
-              <h1 className="title">QuickHub</h1>
+              <h1 className="comptitle">QuickHub</h1>
               <p className="whoweare">
                 Enriching the HR experience for small and medium enterprises.
                 <br />
@@ -38,7 +40,7 @@ function HeroSection() {
                 <AiOutlineArrowRight
                   className="arrow"
                   fill="black"
-                  size="2rem"
+                  size="1.5rem"
                 />
               </Button>
               <p className="whoweare">
@@ -46,12 +48,13 @@ function HeroSection() {
               </p>
             </div>
           </Col>
-          <Col className="p-x-0"
+          <Col className="p-x-0 m-0"
            md={6} lg={6} xl={6}
           >
-            <div className="hero-img-section">
-              <img src={heroImg} width="100%" className="hero-img" />
-            </div>
+          <div className="hero-img" >
+              <img src={heroImg} alt="hero-img" />
+          </div>
+            
           </Col>
         </Row>
       </Container>

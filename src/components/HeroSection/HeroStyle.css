@@ -7,8 +7,12 @@ body {
 }
 
 .hero-container {
-  margin-top: 100px;
-  padding-left: 15%;
+  justify-content: center;
+  align-items: left;
+  height: 100%;
+  margin: 0 10%;
+  margin-top: 7%;
+
 }
 .hero-container h4 {
   font-size: 36px;
@@ -16,14 +20,14 @@ body {
 
   font-weight: 700;
 }
-.hero-container .title {
-  font-size: 62px;
+.hero-container .comptitle {
+  font-size: 55px;
   color: #fff;
-
   font-weight: 700;
+  
 }
 .hero-container .whoweare {
-  font-size: 20px;
+  font-size: 18px;
   color: #fff;
 
   font-weight: 400;
@@ -33,7 +37,7 @@ body {
   background-color: #72b65a;
   color: #000;
   border: none;
-  padding: 10px 20px;
+  padding: 10px 10px;
   width: 200px;
   border-radius: 5px;
   margin-top: 20px;
@@ -65,11 +69,16 @@ body {
   border: 2px solid #72B65A;
 }
 
-.hero-img-section {
+.hero-img {
+  height: 550px;
   width: 100%;
-  justify-content: space-evenly;
-  display: flex;
-  flex-wrap: wrap;
+  
+}
+.hero-img img {
+  object-fit: fill;
+  height: 100%;
+  width: 100%;
+  
 }
 
 

@@ -1,16 +1,18 @@
 .NavBar {
   background-color: white;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   /* text-align: center; */
+
 }
 .NavItems {
   color: black;
-  margin-left: 40px;
+  margin-left: 20px;
   text-decoration: none;
   list-style-type: none;
   font-weight: 500;
   font-size: 16px;
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif
 }
 .NavItems:hover {
   color: #91f5ad;
@@ -34,28 +36,42 @@
 
 .NavBar .logo {
   color: black;
-  font-size: 30px;
+  font-size: 28px;
   font-weight: medium;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  font-weight: 540;
+}
+.NavBar .logoText {
+  color: #91f5ad;
+}
+
+.NavBar .logoImage{
+  height: 50px;
+  width: 50px;
+  margin-right: 10px;
 }
 
 .NavbarButton:hover {
   background-color: #91f5ad;
-  color: "black";
   font-weight: 500;
-  height: 45px;
+  height: 40px;
   width: 100px;
 }
 .NavbarButton {
   background-color: #72b65a;
   font-weight: 500;
-  height: 45px;
+  height: 40px;
   width: 100px;
   margin-left: 20px;
+  border-radius: 0px;
 }
 @media screen and (max-width: 600px) {
   .NavBar {
     flex-direction: column;
-    padding: 20px;
+    padding: 10px;
   }
   .NavItems {
     margin: 10px;

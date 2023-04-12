@@ -6,6 +6,7 @@ import Button from "react-bootstrap/Button";
 import "./NavStyle.css";
 import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
+import logo from "../../assets/quickhublogo.png";
 
 export default function CustomNavbar() {
   const navigation = useNavigate();
@@ -17,13 +18,19 @@ export default function CustomNavbar() {
   };
   return (
     <Navbar collapseOnSelect expand="lg" className="NavBar" variant="light">
-      <Container>
+      <Container fluid className="mx-3">
         <Navbar.Brand href="/" className="logo">
-          QuickHub{" "}
+          <img src={logo} alt="logo" className="logoImage" />
+          Quick
+          <span className="logoText">Hub</span>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-        <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="mx-auto">
+        <Navbar.Collapse id="responsive-navbar-nav" 
+        // className="justify-content-evenly"
+        >
+          <Nav 
+          className="ml-auto"
+          >
             <Link className="NavItems" to="/">
               Home
             </Link>
@@ -41,9 +48,12 @@ export default function CustomNavbar() {
               Testimonials
             </Link>
           </Nav>
-          <Nav>
+          <Nav
+            className="justify-content-end w-100"
+          > 
+
             <Button
-              className="NavbarButton"
+              className="NavbarButton text-white"
               onClick={() => {
                 console.log("clicked");
               }}
@@ -53,12 +63,12 @@ export default function CustomNavbar() {
             </Button>
             <Button
               // set this button active
-              className="NavbarButton"
+              className="NavbarButton text-white"
               onClick={() => {
                 console.log("clicked");
               }}
               variant="mx-2"
-            >
+              >
               Login
             </Button>
           </Nav>
