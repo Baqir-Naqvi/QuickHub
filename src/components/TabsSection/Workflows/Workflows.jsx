@@ -16,7 +16,7 @@ const Workflows = ({ subTitle, title, details, imgUrl }) => {
       <Container fluid className="itworkflow-container">
         <Row>
           <Col xs={12} md={6} className="platform-text">
-            <div style={{ paddingInline: "10%" }} data-aos="fade-up">
+            <div style={{ paddingInline: "5%" }} data-aos="fade-up">
               <b>{subTitle}</b>
               <h2 className="section-heading">{title}</h2>
               <p className="section-text">{details}</p>

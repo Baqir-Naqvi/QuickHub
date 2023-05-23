@@ -1,14 +1,11 @@
 import React from "react";
 import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
 import "./HomeStyle.css";
 import { useEffect } from "react";
 import { useGlobalContext } from "../../utils/ContextProvider";
 import Footer from "../../components/Footer/Footer";
 import HeroSection from "../../components/HeroSection/HeroSection";
 import QuickSection from "../../components/QuickSection/QuickSection";
-import FAQs from "../../components/FAQs/FAQs";
 
 import img1 from "../../assets/img1.png";
 import img2 from "../../assets/img2.png";
@@ -26,7 +23,7 @@ import PersonalizeSection from "../../components/PersonalizeSection/PersonalizeS
 import TrustedSection from "../../components/TrustedSection/TrustedSection";
 import DigitalSection from "../../components/DigitalSection/DigitalSection";
 import FAQ from "../../components/FAQs/FAQ";
-
+import PricingSection from "../../components/PricingSection/PricingSection";
 
 export default function HomePage() {
   const { setState } = useGlobalContext();
@@ -44,16 +41,16 @@ export default function HomePage() {
       <TrustedSection />
       <DigitalSection />
       <FAQ />
+      <PricingSection />
 
       <Container fluid className="innercontainer justify-center">
-       
-          <div className="flex-column align-items-center">
-            <p className="trialtitle">
-              Try QuickHub free <br />
-              for 30 days
-            </p>
+        <div className="flex-column align-items-center">
+          <p className="trialtitle">
+            Try QuickHub free <br />
+            for 30 days
+          </p>
           <Button className="trialbutton">Start free trial</Button>
-          </div>
+        </div>
       </Container>
       <Footer />
     </Container>

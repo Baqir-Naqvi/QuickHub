@@ -1,0 +1,126 @@
+.pricing-container {
+  padding-block: 120px;
+  background-color: hsl(238, 53%, 14%);
+  padding-inline: 40px;
+}
+
+.card-container {
+  margin-top: 160px;
+}
+
+.white-card {
+  text-align: start;
+  color: #111238;
+  display: block;
+  padding: 36px;
+  border-radius: 24px;
+}
+
+.for-text {
+  font-size: 18px;
+  color: rgba(111, 108, 144, 1);
+  font-weight: 500;
+  margin-inline: 17px;
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+
+.type-title {
+  color: rgba(23, 15, 73, 1);
+  font-size: 24px;
+  font-weight: 700;
+  margin-inline: 17px;
+  margin-bottom: 9px;
+}
+
+.details-text {
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 30px;
+  color: rgba(0, 0, 0, 1);
+  margin-top: 10px;
+}
+
+.price-text {
+  color: rgba(23, 15, 73, 1);
+  font-weight: 700;
+  font-size: 54px;
+}
+
+.pricing {
+  color: rgba(128, 237, 153, 1);
+  font-size: 18px;
+}
+
+.period-text {
+  font-size: 20px;
+  color: rgba(111, 108, 144, 1);
+  font-weight: 500;
+  margin-inline: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+.included-text {
+  font-size: 18px;
+  color: rgba(23, 15, 73, 1);
+  font-weight: 700;
+}
+
+.check-text {
+  font-weight: 400;
+  font-size: 18px;
+  margin-left: 14px;
+  color: rgba(23, 15, 73, 1);
+}
+
+.green-button {
+  padding-block: 24px;
+  padding-inline: 104px;
+  background-color: rgba(114, 182, 90, 1);
+  font-weight: 700;
+  font-size: 18px;
+  height: 72px;
+  border-radius: 96px;
+  width: 100%;
+  margin-top: 37px;
+  margin-bottom: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.green-button:is(:hover, :active, :focus) {
+  border: none;
+}
+
+.best-value {
+  background-color: rgba(128, 237, 153, 1) !important;
+  color: black;
+  border: none;
+  border-radius: 10px;
+  margin-top: 50px;
+}
+.ant-switch-handle::before {
+  background-color: black !important;
+}
+
+.upper-card {
+  margin-top: -65px;
+}
+
+@media only screen and (max-width: 600px) {
+  .pricing-container {
+    padding-inline: 15px;
+  }
+  .col-style {
+    margin-top: 20px;
+  }
+  .upper-card {
+    margin-top: 16px;
+  }
+  .card-container {
+    margin-top: unset;
+  }
+}
