@@ -5,6 +5,7 @@ import { GiPlanetCore } from "react-icons/gi";
 import { IoRocketOutline } from "react-icons/io5";
 import { SiSololearn } from "react-icons/si";
 import AOS from 'aos';
+import { Col } from "react-bootstrap";
 
 export default function FeatureCard({ title, description, index }) {
    useEffect(() => {
@@ -16,27 +17,35 @@ export default function FeatureCard({ title, description, index }) {
     1: <GiPlanetCore
     className="icon"
     size={50}
-    fill='#72B65A'
+    fill='#111238'
      />,
     2: <IoRocketOutline
      className="icon"
     size={50}
-    color='#72B65A'
+    color='#111238'
      />,
     3: <SiSololearn 
      className="icon"
     size={50}
-    fill='#72B65A'
+    fill='#111238'
     />,
   };
+
   return (
-    <Card style={{ width: "22rem" }} className='card'
+    <Card  className='card'
     data-aos={index === 1 ? 'fade-right' : index === 2 ? 'fade-up' : 'fade-left'}
     >
-      <Card.Body>
-        <Card.Title>{icons[index]}</Card.Title>
+      <Card.Body style={
+        {display:"flex",
+        flexDirection:"row",
+        justifyContent:"space-around",
+      }}>
+        <div 
+        className="icondiv  flex-column self-center "
+        >{icons[index]}</div >
+        <Col className="cardcol">
         <Card.Subtitle className="cardsubtitle">{title}</Card.Subtitle>
-        <Card.Text>{description}</Card.Text>
+        </Col>  
       </Card.Body>
     </Card>
   );
