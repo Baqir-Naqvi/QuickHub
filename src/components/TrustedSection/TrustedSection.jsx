@@ -7,6 +7,9 @@ const TrustedSection = () => {
   return (
     <div>
       <Container fluid className="trusted-container">
+        <h4 className="toptitle">
+          Why Choose Us?
+        </h4>
         <h4 className="trusted-title ">
           Trusted by ~7,700 enterprise customers
         </h4>

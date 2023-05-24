@@ -17,8 +17,20 @@ body {
 .hero-container h4 {
   font-size: 36px;
   color: #72b65a;
-
   font-weight: 700;
+  display: flex;
+  padding-top: 30px;
+}
+.toptitle{
+  font-size: 36px;
+  color: #72b65a;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 30px;
+
+  
 }
 .hero-container .comptitle {
   font-size: 55px;
@@ -39,7 +51,6 @@ body {
   border: none;
   padding: 10px 10px;
   width: 200px;
-  border-radius: 5px;
   margin-top: 20px;
   font-size: 20px;
   font-weight: 500;
@@ -68,6 +79,7 @@ body {
   self-align: center;
   border: 2px solid #72B65A;
 }
+
 
 .hero-img {
   height: 550px;

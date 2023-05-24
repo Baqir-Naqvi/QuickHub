@@ -14,7 +14,7 @@ const PricingSection = () => {
     <div>
       <Container fluid className="pricing-container">
         <div>
-          <h4 className="pricing text-center"> PRICING</h4>
+          <h4 className="toptitle"> PRICING</h4>
           <h1
             className="text-white text-center"
             style={{ fontWeight: 800, marginTop: 20 }}
@@ -77,14 +77,7 @@ const PricingSection = () => {
                   <img src="/src/assets/check-green.png" alt="" />
                   <p className="check-text mb-0 ">Adjust the audience</p>
                 </div>
-                <div className="d-flex align-middle " style={{ marginTop: 14 }}>
-                  <img src="/src/assets/check-green.png" alt="" />
-                  <p className="check-text mb-0 ">0% plagarism</p>
-                </div>
-                <div className="d-flex align-middle " style={{ marginTop: 14 }}>
-                  <img src="/src/assets/check-green.png" alt="" />
-                  <p className="check-text mb-0 ">Instant output</p>
-                </div>
+                
                 <Button type="link" className="green-button text-black">
                   Get Started
                 </Button>
@@ -154,27 +147,10 @@ const PricingSection = () => {
                     className="check-text mb-0 "
                     style={{ color: "rgba(0, 0, 0, 1)" }}
                   >
-                    Up to 1,000,000 tracked visits
+                    Up to 1,000 tracked visits
                   </p>
                 </div>
-                <div className="d-flex align-middle " style={{ marginTop: 14 }}>
-                  <img src="/src/assets/check-green.png" alt="" />
-                  <p
-                    className="check-text mb-0 "
-                    style={{ color: "rgba(0, 0, 0, 1)" }}
-                  >
-                    Premium support
-                  </p>
-                </div>
-                <div className="d-flex align-middle " style={{ marginTop: 14 }}>
-                  <img src="/src/assets/check-green.png" alt="" />
-                  <p
-                    className="check-text mb-0 "
-                    style={{ color: "rgba(0, 0, 0, 1)" }}
-                  >
-                    Up to 10 team members
-                  </p>
-                </div>
+        
                 <Button
                   style={{
                     backgroundColor: "black",
@@ -187,9 +163,7 @@ const PricingSection = () => {
                 </Button>
               </div>
             </Card>
-            <div className="d-flex align-middle justify-center">
-              <BaseButton className="best-value">Best value</BaseButton>
-            </div>
+           
           </Col>
           <Col className="col-style" xs={12} md={4}>
             <Card bg="white" className="white-card">
@@ -222,14 +196,7 @@ const PricingSection = () => {
                   <img src="/src/assets/check-green.png" alt="" />
                   <p className="check-text mb-0 ">Original content</p>
                 </div>
-                <div className="d-flex align-middle " style={{ marginTop: 14 }}>
-                  <img src="/src/assets/check-green.png" alt="" />
-                  <p className="check-text mb-0 ">Adjust your tone</p>
-                </div>
-                <div className="d-flex align-middle " style={{ marginTop: 14 }}>
-                  <img src="/src/assets/check-green.png" alt="" />
-                  <p className="check-text mb-0 ">Up to 50 team members</p>
-                </div>
+                
                 <Button type="link" className="green-button text-black">
                   Get Started
                 </Button>

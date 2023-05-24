@@ -24,7 +24,7 @@ function HeroSection() {
                   words={["Who are we?"]}
                 />
               </h4>
-              <h1 className="comptitle">QuickHub</h1>
+              {/* <h1 className="comptitle">QuickHub</h1> */}
               <p className="whoweare">
                 Enriching the HR experience for small and medium enterprises.
                 <br />
@@ -37,11 +37,11 @@ function HeroSection() {
               </p>
               <Button className="Herobutton">
                 Apply here
-                <AiOutlineArrowRight
+                {/* <AiOutlineArrowRight
                   className="arrow"
                   fill="black"
                   size="1.5rem"
-                />
+                /> */}
               </Button>
               <p className="whoweare">
                 Already have an account? <a href="/login">Login here</a>

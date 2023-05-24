@@ -9,7 +9,7 @@ export const workflowsData = [
     subtitle: "IT Workflows",
     title: "Unleash the power of IT",
     details:
-      "Transform your business with digital IT workflows. Modernize your operations to optimize productivity, cost, and resilience with a single platform for IT.",
+      "Centralize the employees’ data with one-click filters or slice and dice to view the stored data, documentation, current involvement, payroll, expenses. This serves as a dual experience for both HR and employees",
     imgUrl: itworkflowimg,
   },
   {
@@ -17,7 +17,7 @@ export const workflowsData = [
     subtitle: "Employee Workflows",
     title: "Elevate the employee experience",
     details:
-      "Make it easier for employees to get what they need, when they need it. Embed intelligence into every interaction to deliver experiences that break down silos and unlock productivity.",
+      "Manage your assigned assets in a single platform. Easy to track who is in possession of which asset, for how long and last servicing. Integrate it with third party systems to have a seamless experience.",
     imgUrl: employeeworkflowimg,
   },
   {
@@ -25,15 +25,7 @@ export const workflowsData = [
     subtitle: "Customer Workflows",
     title: "Drive customer loyalty",
     details:
-      "Reimagine the customer experience to create instant satisfaction. Scale service operations with connected digital workflows to automate work across departments.",
+      "Unable to keep track of number of leaves, leave requests, remaining leaves, attendance performance? Get it all in one place. HR can easily monitor the leaves with line manager approvals and let the system to evaluate the same in next payroll. ",
     imgUrl: customerworkflowimg,
-  },
-  {
-    id: 4,
-    subtitle: "Creator Workflows",
-    title: "Build apps fast",
-    details:
-      "Create intuitive experiences users love. Quickly build digital workflow apps and scale across the enterprise with a low-code platform.",
-    imgUrl: creatorworkflowimg,
-  },
+  }
 ];

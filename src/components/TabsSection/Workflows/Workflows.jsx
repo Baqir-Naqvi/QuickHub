@@ -14,9 +14,14 @@ const Workflows = ({ subTitle, title, details, imgUrl }) => {
   return (
     <div>
       <Container fluid className="itworkflow-container">
-        <Row>
-          <Col xs={12} md={6} className="platform-text">
-            <div style={{ paddingInline: "5%" }} data-aos="fade-up">
+        <Col>
+              <Row>
+                 <div className="itworkflow-img-section" data-aos="fade-down">
+                  <img src={imgUrl} className="itworkflow-img" />
+                </div>
+              </Row>
+          <Row className="platform-text">
+            <div style={{ paddingInline: "5%",marginTop:"10%" }} data-aos="fade-up">
               <b>{subTitle}</b>
               <h2 className="section-heading">{title}</h2>
               <p className="section-text">{details}</p>
@@ -25,13 +30,8 @@ const Workflows = ({ subTitle, title, details, imgUrl }) => {
                 text="Get Details"
               />
             </div>
-          </Col>
-          <Col>
-            <div className="itworkflow-img-section" data-aos="fade-down">
-              <img src={imgUrl} width="99%" className="itworkflow-img" />
-            </div>
-          </Col>
-        </Row>
+          </Row>
+        </Col>
       </Container>
     </div>
   );

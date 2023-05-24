@@ -1,0 +1,207 @@
+@mixin breakpoint($point) {
+	@if $point==sm {
+		@media (min-width: 576px) {
+			@content;
+		}
+	} @else if $point==max-sm {
+		@media (max-width: 575px) {
+			@content;
+		}
+	} @else if $point==md {
+		@media (min-width: 768px) {
+			@content;
+		}
+	} @else if $point==max-md {
+		@media (max-width: 767px) {
+			@content;
+		}
+	} @else if $point==lg {
+		@media (min-width: 992px) {
+			@content;
+		}
+	} @else if $point==max-lg {
+		@media (max-width: 991px) {
+			@content;
+		}
+	} @else if $point==xl {
+		@media (min-width: 1200px) {
+			@content;
+		}
+	} @else if $point==max-xl {
+		@media (max-width: 1199px) {
+			@content;
+		}
+	} @else if $point==xxl {
+		@media (min-width: 1400px) {
+			@content;
+		}
+	} @else if $point==max-xxl {
+		@media (max-width: 1399px) {
+			@content;
+		}
+	}
+}
+
+
+@include breakpoint(max-md) {
+	h1 {
+		font-size: 34px;
+	}
+	h2 {
+		font-size: 28px;
+	}
+	h3 {
+		font-size: 24px;
+	}
+	h4 {
+		font-size: 22px;
+	}
+	h5 {
+		font-size: 18px;
+	}
+	h6 {
+		font-size: 16px;
+	}
+}
+@include breakpoint(max-sm) {
+	h1 {
+		font-size: 28px;
+	}
+	h2 {
+		font-size: 24px;
+	}
+	h3 {
+		font-size: 22px;
+	}
+	h4 {
+		font-size: 20px;
+	}
+	h5 {
+		font-size: 18px;
+	}
+	h6 {
+		font-size: 16px;
+	}
+}
+
+
+.__accordion-item {
+	background: transparent !important;
+	border: none;
+	border-radius: 0 !important;
+	font-family: var(--heading-fonts);
+	padding-inline: 0;
+	&.active {
+		// padding: 25px 30px;
+		box-shadow: 0px 12px 36px rgba(0, 0, 0, 0.12);
+		border-radius: 12px !important;
+	}
+	.accordion-header {
+		border-radius: 0 !important;
+		.accordion-button {
+			padding-inline: 30px;
+			padding-top: 15px;
+			padding-bottom: 5px;
+			// height: 60px;
+			box-shadow: none;
+			background: transparent !important;
+			border-radius: 0 !important;
+			font-size: 20px;
+			line-height: 26px;
+			color: #585c67;
+			font-weight: 400;
+			transition: all ease 0.3s;
+			-webkit-transition: all ease 0.3s;
+			-moz-transition: all ease 0.3s;
+
+			svg {
+				// margin-right: 10px;
+				color: #585c67;
+			}
+			&::after {
+				display: none;
+			}
+			.serial {
+				font-weight: 300;
+				font-size: 30px;
+				line-height: 36px;
+				margin-right: 15px;
+				img {
+					max-width: 29px;
+				}
+				@include breakpoint(max-sm) {
+					font-size: 24px;
+					margin-right: 12px;
+					img {
+						max-width: 29px;
+					}
+				}
+			}
+			@include breakpoint(max-sm) {
+				font-size: 20px;
+				line-height: 26px;
+				padding-inline: 15px;
+			}
+			&:not(.collapsed) {
+				font-weight: 500;
+				font-size: 24px;
+				line-height: 32px;
+				color: #2d3340;
+				.serial {
+					font-size: 24px;
+					font-weight: 600;
+				}
+				@include breakpoint(max-sm) {
+					font-size: 20px;
+					line-height: 32px;
+					font-weight: 500;
+				}
+			}
+		}
+	}
+	.accordion-body {
+		padding-inline: 82px 30px;
+		padding-top: 10px;
+		padding-bottom: 20px;
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 26px;
+		color: #9b9b9b;
+		max-width: 85%;
+		@include breakpoint(max-sm) {
+			font-size: 16px;
+			line-height: 22px;
+		}
+		@include breakpoint(max-sm) {
+			padding-left: 45px;
+		}
+	}
+	@include breakpoint(max-xl) {
+		font-size: 16px;
+		.accordion-header {
+			.accordion-button {
+				font-size: 20px;
+			}
+		}
+	}
+}
+.service-info-section {
+	padding-bottom: 110px;
+	@include breakpoint(max-md) {
+		padding-bottom: 80px;
+	}
+}
+.frequent-title {
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 29px;
+	padding-block: 15px;
+	max-width: 716px;
+	border-bottom: 1px solid var(--border);
+	border-top: 1px solid var(--border);
+	@include breakpoint(max-sm) {
+		padding-top: 30px;
+		padding-bottom: 20px;
+	}
+}
+

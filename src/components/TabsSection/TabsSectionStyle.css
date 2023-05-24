@@ -4,7 +4,32 @@
   padding-bottom: 20px;
   /* text-align: center; */
 }
+.offerheading{
+  padding-left: 50px;
+  padding-bottom: 100px;
+  padding-top: 0px;
+  margin-top: 0px;
+  white-space: nowrap;
+  
+}
+.tabcontainer{
+  display:flex;
+  flex-direction: row;
+  padding-block: 70px;
+}
+.left-section{
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  width: 100%;
+}
+.offerheading h2{
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 0px;
 
+
+}
 .tabs-wrapper {
   background-color: white;
   padding-block: 70px;
@@ -14,6 +39,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 100%;
 }
 .nav-item {
   color: #ffffff;
@@ -23,11 +49,14 @@
   font-weight: 500;
   font-size: 16px;
   border-left: 5px solid #afafaf;
+  border-bottom: 5px solid #afafaf;
   margin-bottom: 20px;
+  width: 150px
 }
 
 .nav-item:focus-within {
   border-left: 5px solid black !important;
+  border-bottom: 5px solid black !important;
 }
 .nav-link {
   color: #7f7f7f;
@@ -38,6 +67,10 @@
 
 .nav-link:focus {
   color: black;
+}
+.flex-column{
+  height: 250px;
+  justify-content: space-between;
 }
 /* .nav-link:after {
   content: "";
@@ -56,4 +89,11 @@
 }
 .nav-item:active {
   color: #91f5ad;
+}
+
+@media screen and (max-width:786px){
+  .tabcontainer{
+    display:flex;
+    flex-direction: column;
+  }
 }

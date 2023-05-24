@@ -8,25 +8,33 @@ const TabsSection = () => {
   const [key, setKey] = useState("home");
 
   return (
-    <div className="tabs-wrapper">
+    <div className="tabs-wrapper" >
       <Tab.Container unmountOnExit id="left-tabs-example" defaultActiveKey="1">
-        <div className="d-flex">
+        <div className="tabcontainer">
           <div className="tabs-container">
+            <div className="left-section">
+
+      <div className="offerheading">
+          <h2 style={{color:"#72B65A"}}>
+            Main Services we offer
+          </h2>
+
+      </div>
             <Nav className="flex-column">
               <Nav.Item>
-                <Nav.Link eventKey="1">IT Workflows</Nav.Link>
+                <Nav.Link eventKey="1">Core</Nav.Link>
               </Nav.Item>
               <Nav.Item>
-                <Nav.Link eventKey="2">Employee Workflows</Nav.Link>
+                <Nav.Link eventKey="2">Assests</Nav.Link>
               </Nav.Item>
               <Nav.Item>
-                <Nav.Link eventKey="3">Customer Workflows</Nav.Link>
-              </Nav.Item>
-              <Nav.Item>
-                <Nav.Link eventKey="4">Creator Workflows</Nav.Link>
+                <Nav.Link eventKey="3">Time Tracking</Nav.Link>
               </Nav.Item>
             </Nav>
           </div>
+            </div>
+
+
           <div style={{ marginTop: "30px" }}>
             <Tab.Content>
               {workflowsData.map((data, index) => {

@@ -1,50 +1,79 @@
 import React from "react";
-import Faq from "react-faq-component";
-import { FAQsData } from "../../data/FeaturesData";
-import { Row } from "react-bootstrap";
-import { Col } from "react-bootstrap";
-import "./faqstyle.css";
-import Card from "react-bootstrap/Card";
-import Button from "react-bootstrap/Button";
-import { FiMessageSquare } from "react-icons/fi";
-export default function FAQs() {
-  return (
-    <div>
-      <h2 className="quicktitle">
-        Frequently <br />
-        <span style={{ color: "#fff" }}>Asked Questions</span>
-      </h2>
-      <Row className="faqrow">
-        <Col lg={7} md={6} sm={12}>
-          <div className="faq-style-wrapper">
-            <Faq
-              data={FAQsData}
-              styles={{
-                bgColor: "white",
-                titleTextColor: "black",
-                rowTitleColor: "black",
-                rowContentColor: "grey",
-                arrowColor: "black",
-                rowTitleTextSize: "20px",
-                rowContentTextSize: "16px",
-                rowContentPaddingTop: "10px",
-              }}
-            />
-          </div>
-        </Col>
-        <Col lg={3} md={6} sm={12}>
-          <Card className="card">
-            <FiMessageSquare className="icon" size={80} fill="#000" />
-            <Card.Title>Do you have more questions?</Card.Title>
-            <Card.Body>
-              End-to-end payments and financial <br />
-              management in a single solution. <br />
-              Meet the right platform to help realize.
-            </Card.Body>
-            <Button className="Herobutton">Shoot a Direct Mail</Button>
-          </Card>
-        </Col>
-      </Row>
-    </div>
-  );
-}
+import FAQ from "./FAQ";
+import { faqData1 } from "./data";
+
+const Faqs = () => {
+	return (
+
+		<section className="faqs-section"
+    style={{marginBlock:"100px"}}
+    >
+			<div className="container">
+				<div className="faq-wrap">
+					<h4 className="toptitle">
+						<span className="d-none d-sm-block">Frequently Ask Questions</span>
+						<span className="d-sm-none">Frequently Ask Questions</span>
+					</h4>
+					<FAQ data={
+					faqData1
+					} id="frequenty" />
+				</div>
+			</div>
+			
+		</section>
+	);
+};
+
+export default Faqs;
+
+
+
+
+/*
+
+
+			<div className="faq-qck-txt">
+					<span id="more-txt" className="target-id"></span>
+					{data.length>0?data[0]?.fields["descrizioneHotel"]:`
+					Lorem ipsum dolor sit amet consectetur adipiscing elit primis,
+					nostra nulla tellus sagittis turpis maecenas duis feugiat nibh,
+					fames porttitor faucibus elementum sollicitudin iaculis mauris.
+					Sodales integer cubilia est ultricies vivamus potenti enim
+					faucibus, porttitor rhoncus ad cursus interdum rutrum aenean
+					velit, quis aliquam convallis posuere primis Lorem ipsum dolor
+					sit amet consectetur adipiscing elit primis, nostra nulla tellus
+					sagittis turpis maecenas duis feugiat nibh, fames porttitor
+					faucibus elementum sollicitudin iaculis mauris. Sodales integer
+					cubilia est ultricies vivamus potenti enim faucibus, porttitor
+					rhoncus ad cursus interdum rutrum aenean velit, quis aliquam
+					convallis posuere primis fames porttitor faucibus elementum
+					sollicitudin iaculis mauris. Sodales integer cubilia est
+					ultricies vivamus potenti enim faucibus, porttitor rhoncus ad
+					cursus interdum rutrum aenean velit, quis aliquam convallis
+					posuere primis is feugiat nibh, fames porttitor faucibus
+					elementum sollicitudin iaculis mauris. Sodales integer cubilia
+					est ultricies vivamus potenti enim faucibus, porttitor rhoncus ad
+					cursus interdum rutrum aenean velit, quis aliquam convallis
+					posuere primis Lorem ipsum dolor sit amet consectetur adipiscing
+					elit primis, nostra nulla tellus sagittis turpis maecenas duis
+					feugiat nibh, fames porttitor faucibus elementum sollicitudin
+					iaculis mauris. Sodales integer cubilia est ultricies vivamus
+					potenti enim faucibus, porttitor rhoncus ad cursus interdum
+					rutrum aenean velit, quis aliquam convallis posuere primis fames
+					porttitor faucibus elementum sollicitudin iaculis mauris. Sodales
+					integer cubilia est ultricies vivamus potenti enim faucibus,
+					porttitor rhoncus ad cursus interdum rutrum aenean velit, quis
+					aliquam convallis posuere primis`}
+				</div>
+				<h4 className="frequent-title p-0 border-0 mb-3">
+					<span className="text-base">
+						Dettagli Struttura {data.length>0?data[0]?.fields["nomeHotel"]:""}
+					</span>
+				</h4>
+				<div className="color-base">
+					<FaqItems data={
+						data.length>0?faqData2Fetch:faqData2
+					} id="icon-style" />
+				</div>
+
+*/
