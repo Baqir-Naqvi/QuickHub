@@ -9,9 +9,6 @@ const TopComponent = () => {
           <b>Guides</b>
         </h1>
       </div>
-      <div>
-        <input className="search" type="text" placeholder="Search...." />
-      </div>
     </div>
   );
 };
