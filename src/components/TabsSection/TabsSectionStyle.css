@@ -90,10 +90,22 @@
 .nav-item:active {
   color: #91f5ad;
 }
-
+.offertitle_mobile{
+  display: none;
+}
 @media screen and (max-width:786px){
   .tabcontainer{
     display:flex;
     flex-direction: column;
+  }
+  .offertitle_desktop {
+    display: none;
+  }
+  .offertitle_mobile{
+    display: block;
+    font-size: 30px;
+    font-weight: 750;
+    justify-content: center;
+    text-align: center;
   }
 }

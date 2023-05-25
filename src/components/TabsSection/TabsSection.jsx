@@ -13,9 +13,11 @@ const TabsSection = () => {
         <div className="tabcontainer">
           <div className="tabs-container">
             <div className="left-section">
-
+        <h2 className='offertitle_mobile' style={{color:"#72B65A"}}>
+            Main Services we offer
+          </h2>
       <div className="offerheading">
-          <h2 style={{color:"#72B65A"}}>
+          <h2 className='offertitle_desktop' style={{color:"#72B65A"}}>
             Main Services we offer
           </h2>
 

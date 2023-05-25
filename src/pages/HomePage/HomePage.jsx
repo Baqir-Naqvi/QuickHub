@@ -39,7 +39,6 @@ export default function HomePage() {
           <Button className="trialbutton">Start free trial</Button>
         </div>
       </Container>
-      <Footer />
     </Container>
   );
 }
